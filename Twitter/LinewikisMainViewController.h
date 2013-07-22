@@ -10,12 +10,17 @@
 
 /////////////////test new/////////////////////
 
+
+
+
 #import "LinewikisFlipsideViewController.h"
 #import <Accounts/Accounts.h>
 #import <Social/Social.h>
 
 @interface LinewikisMainViewController : UIViewController <LinewikisFlipsideViewControllerDelegate, UIPopoverControllerDelegate,UITableViewDataSource,UITableViewDelegate>
-
+{
+ ////////Gsankar22/////// 
+}
 @property (strong, nonatomic) UIPopoverController *flipsidePopoverController;
 
 
