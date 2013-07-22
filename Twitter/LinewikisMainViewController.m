@@ -13,6 +13,7 @@
 #import <Social/Social.h>
 #import <Accounts/ACAccountType.h>
 #import <Accounts/ACAccountCredential.h>
+////// main/////////
 
 @interface LinewikisMainViewController ()
 {
@@ -27,7 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    //defect Id-# :qfor:gowrisankar:start:twitter feed call
     [self Twitter];
 	// Do any additional setup after loading the view, typically from a nib.
 }
