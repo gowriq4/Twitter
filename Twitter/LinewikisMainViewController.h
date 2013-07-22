@@ -19,7 +19,8 @@
 
 @interface LinewikisMainViewController : UIViewController <LinewikisFlipsideViewControllerDelegate, UIPopoverControllerDelegate,UITableViewDataSource,UITableViewDelegate>
 {
- ////////Gsankar22/////// 
+ ////////Gsankar22///////
+    ////////////////////
 }
 @property (strong, nonatomic) UIPopoverController *flipsidePopoverController;
 
