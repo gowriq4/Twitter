@@ -20,6 +20,9 @@
 		C3B5E94F1797B9D700B8FA5A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B5E94D1797B9D700B8FA5A /* MainStoryboard_iPad.storyboard */; };
 		C3B5E9521797B9D700B8FA5A /* LinewikisMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B5E9511797B9D700B8FA5A /* LinewikisMainViewController.m */; };
 		C3B5E9551797B9D700B8FA5A /* LinewikisFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B5E9541797B9D700B8FA5A /* LinewikisFlipsideViewController.m */; };
+		C3B5E95C1797BEF300B8FA5A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B5E95B1797BEF300B8FA5A /* Social.framework */; };
+		C3B5E95E1797BF0400B8FA5A /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B5E95D1797BF0400B8FA5A /* Accounts.framework */; };
+		C3B5E96017981F2C00B8FA5A /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B5E95F17981F2C00B8FA5A /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		C3B5E9511797B9D700B8FA5A /* LinewikisMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinewikisMainViewController.m; sourceTree = "<group>"; };
 		C3B5E9531797B9D700B8FA5A /* LinewikisFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinewikisFlipsideViewController.h; sourceTree = "<group>"; };
 		C3B5E9541797B9D700B8FA5A /* LinewikisFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinewikisFlipsideViewController.m; sourceTree = "<group>"; };
+		C3B5E95B1797BEF300B8FA5A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		C3B5E95D1797BF0400B8FA5A /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		C3B5E95F17981F2C00B8FA5A /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B5E96017981F2C00B8FA5A /* Twitter.framework in Frameworks */,
+				C3B5E95E1797BF0400B8FA5A /* Accounts.framework in Frameworks */,
+				C3B5E95C1797BEF300B8FA5A /* Social.framework in Frameworks */,
 				C3B5E9331797B9D700B8FA5A /* UIKit.framework in Frameworks */,
 				C3B5E9351797B9D700B8FA5A /* Foundation.framework in Frameworks */,
 				C3B5E9371797B9D700B8FA5A /* CoreGraphics.framework in Frameworks */,
@@ -61,6 +70,9 @@
 		C3B5E9261797B9D700B8FA5A = {
 			isa = PBXGroup;
 			children = (
+				C3B5E95F17981F2C00B8FA5A /* Twitter.framework */,
+				C3B5E95D1797BF0400B8FA5A /* Accounts.framework */,
+				C3B5E95B1797BEF300B8FA5A /* Social.framework */,
 				C3B5E9381797B9D700B8FA5A /* Twitter */,
 				C3B5E9311797B9D700B8FA5A /* Frameworks */,
 				C3B5E9301797B9D700B8FA5A /* Products */,
@@ -232,7 +244,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Carlos Boglin (YE3JY9J28V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Carlos Boglin (YE3JY9J28V)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -247,6 +260,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "999B833D-5F77-4963-ADDA-3C8B44715DB0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "999B833D-5F77-4963-ADDA-3C8B44715DB0";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -264,7 +279,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Carlos Boglin (YE3JY9J28V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Carlos Boglin (YE3JY9J28V)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -272,6 +288,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "999B833D-5F77-4963-ADDA-3C8B44715DB0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "999B833D-5F77-4963-ADDA-3C8B44715DB0";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -281,10 +299,14 @@
 		C3B5E9591797B9D700B8FA5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Carlos Boglin (YE3JY9J28V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Carlos Boglin (YE3JY9J28V)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twitter/Twitter-Prefix.pch";
 				INFOPLIST_FILE = "Twitter/Twitter-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "999B833D-5F77-4963-ADDA-3C8B44715DB0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "999B833D-5F77-4963-ADDA-3C8B44715DB0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -292,10 +314,14 @@
 		C3B5E95A1797B9D700B8FA5A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Carlos Boglin (YE3JY9J28V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Carlos Boglin (YE3JY9J28V)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twitter/Twitter-Prefix.pch";
 				INFOPLIST_FILE = "Twitter/Twitter-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "999B833D-5F77-4963-ADDA-3C8B44715DB0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "999B833D-5F77-4963-ADDA-3C8B44715DB0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

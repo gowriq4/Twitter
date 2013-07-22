@@ -6,10 +6,20 @@
 //  Copyright (c) 2013 Quadrant. All rights reserved.
 //
 
-#import "LinewikisFlipsideViewController.h"
+/////////////////// July22 ///////////////////
 
-@interface LinewikisMainViewController : UIViewController <LinewikisFlipsideViewControllerDelegate, UIPopoverControllerDelegate>
+#import "LinewikisFlipsideViewController.h"
+#import <Accounts/Accounts.h>
+#import <Social/Social.h>
+
+@interface LinewikisMainViewController : UIViewController <LinewikisFlipsideViewControllerDelegate, UIPopoverControllerDelegate,UITableViewDataSource,UITableViewDelegate>
 
 @property (strong, nonatomic) UIPopoverController *flipsidePopoverController;
+
+
+@property (strong, nonatomic) IBOutlet UITableView *tweetTableView;
+@property (strong, nonatomic) NSArray *dataSource;
+
+
 
 @end
